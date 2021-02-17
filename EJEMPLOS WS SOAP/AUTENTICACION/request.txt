@@ -1,0 +1,40 @@
+POST https://pruebacfdirecepcion.cloudapp.net/Seguridad/Autenticacion.svc HTTP/1.1
+Content-Type: text/xml; charset=utf-8
+SOAPAction: http://tempuri.org/IAutenticacion/Autentica
+Accept-Encoding: gzip, deflate
+Host: pruebacfdirecepcion.cloudapp.net
+Content-Length: 4001
+
+<s:Envelope xmlns:o="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Header>
+		<o:Security s:mustUnderstand="1">
+			<u:Timestamp u:Id="_0">
+				<u:Created>2017-05-23T14:09:20.000Z</u:Created>
+				<u:Expires>2017-05-23T14:19:20.000Z</u:Expires>
+			</u:Timestamp>
+			<o:BinarySecurityToken u:Id="uuid-3e4f68cb-fe78-46db-94ec-db724d774565-3" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">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</o:BinarySecurityToken>
+			<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+				<SignedInfo>
+					<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+					<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+					<Reference URI="#_0">
+						<Transforms>
+							<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+						</Transforms>
+						<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+						<DigestValue>8/adzdvsD49PE64v/iWMhoe7fUw=</DigestValue>
+					</Reference>
+				</SignedInfo>
+				<SignatureValue>jxBX1Qh75VC8SfOR/88VVY1Zoh4UoW35W6kDq3yt71WLr6dFkm+sa7qd/g56jzRp37AAjyUCexFalAWSuHd9p2cSFLyNGkXgTbyvh+OjwfySAPRl7DWYiDReVtZu75EDBZ9UMa+CRMsvseJWH3nvidnEvJvVhbQGWfndhFB/OWWGWOa2E66IdNKOTPR4wpVZxgFsD7l3yX7rqgKI2F25KMnAyzkY8/nbHrJPXZl9N1OnY0kgXqCJmAvrSPkKzYSQfegvAv9AB7QCp/+IwTDfId5hDeHwBtvPLt1o5pdZ+7ttVMR998qRP9FWlR59E2MJQWCzxseCbKqpO/L/7LTiHA==</SignatureValue>
+				<KeyInfo>
+					<o:SecurityTokenReference>
+						<o:Reference ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" URI="#uuid-3e4f68cb-fe78-46db-94ec-db724d774565-3"/>
+					</o:SecurityTokenReference>
+				</KeyInfo>
+			</Signature>
+		</o:Security>
+	</s:Header>
+	<s:Body>
+		<Autentica xmlns="http://tempuri.org/"/>
+	</s:Body>
+</s:Envelope>
