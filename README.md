@@ -24,4 +24,6 @@ Mas informacion:
 ...
 
 Contactame:
-Noticacion/Email: [JASS](mailto:jass.sanchez25@gmail.com?subject=[GitHub] Source Han Sans)
+Noticacion/Email: [JASS](mailto:jass.sanchez25@gmail.com)
+
+<email@example.com> (you may write vaild email links also using [mailto](mailto:email@example.com) as protoc
