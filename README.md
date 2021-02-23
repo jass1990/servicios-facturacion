@@ -9,21 +9,21 @@ Se debera seguir una serie de pasos para consumir los servicios y enviar el XML 
 
 ## Servicio de cancelacion...
 
-##Autenticación para la cancelacion:
+## Autenticación para la cancelacion:
 - `https://pruebacfdicancelacion.cloudapp.net/Autenticacion/Autenticacion.svc´
-##Solicitud de Cancelación:
+## Solicitud de Cancelación:
 - `https://pruebacfdicancelacion.cloudapp.net/Cancelacion/CancelaCFDService.svc´
-##Aceptación/Rechazo de cancelacón:
+## Aceptación/Rechazo de cancelacón:
 - `https://pruebacfdicancelacion.cloudapp.net/Cancelacion/AceptacionRechazoService.svc´
-##Consulta Cfdi’s Relacionados:
+## Consulta Cfdi’s Relacionados:
 - `https://pruebacfdicancelacion.cloudapp.net/ConsultaRelacionados/CfdiConsultaRelacionadosService.svc´
-##Consulta estatus CFDI:
+## Consulta estatus CFDI:
 - `https://pruebacfdiconsultaqr.cloudapp.net/ConsultaCFDIService.svc´
 
-Mas informacion:
+## Mas informacion:
 ...
 
-Contactame:
+## Contactame:
 Noticacion/Email: [JASS](mailto:jass.sanchez25@gmail.com)
 
 
