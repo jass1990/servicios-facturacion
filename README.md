@@ -26,4 +26,4 @@ Mas informacion:
 Contactame:
 Noticacion/Email: [JASS](mailto:jass.sanchez25@gmail.com)
 
-<email@example.com> (you may write vaild email links also using [mailto](mailto:email@example.com) as protoc
+
